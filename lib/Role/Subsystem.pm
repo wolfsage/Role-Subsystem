@@ -96,9 +96,9 @@ example, you may eventually want to do something like this:
 
   with 'Role::Subsystem' => { ... };
 
-  requries 'add_service';
-  requries 'remove_service';
-  requries 'service_summary';
+  requires 'add_service';
+  requires 'remove_service';
+  requires 'service_summary';
 
 ...and then...
 
